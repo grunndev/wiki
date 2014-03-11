@@ -26,14 +26,6 @@ sw_menu() {
 	echo "</ul>"
 }
 
-sw_style() {
-	if [ -f $CDIR/$STYLE ]; then
-		echo '<style type="text/css">'
-		cat $CDIR/$STYLE
-		echo '</style>'
-	fi
-}
-
 # Set input dir
 IDIR="`echo $1 | sed -e 's,/*$,,'`"
 if [ -z "$IDIR" ] || [ ! -d $IDIR ]; then
