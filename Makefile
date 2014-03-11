@@ -1,3 +1,5 @@
+all: hive5
+
 hive5:
 	./sw hive5.nl
 
