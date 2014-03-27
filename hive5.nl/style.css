@@ -40,6 +40,19 @@ b,strong,optgroup{font-weight:700}
 pre,textarea{overflow:auto}
 button::-moz-focus-inner,input::-moz-focus-inner,legend{border:0;padding:0}
 
+pre {
+  margin-left: 1.5em;
+  padding-left: .5em;
+  border-left: 2px solid #aaa;
+}
+code { background: #eee }
+pre > code { background: transparent }
+code, pre {
+  font-family:
+    'Source Code Pro', 'DejaVu Sans Mono', Consolas,
+    'Andale Mono WT', 'Andale Mono', monospace;
+}
+
 /* Font */
 @import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700);
 
