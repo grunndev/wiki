@@ -22,12 +22,6 @@ IRC. And when hacking at members, the following holds: BYOD (Bring Your Own Devi
 and PYOP (Pay Your Own Pizza). See the [The Archive](./archive.html) for
 past events.
 
-Future scheduled activities:
-
- - 2014-03-21:
-    - 20:00, presentation voidzero, topic: authentication
-    - Then hacking @ Fablab Groningen
-
 
 Members
 -------

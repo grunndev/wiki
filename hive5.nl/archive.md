@@ -3,6 +3,8 @@ The Archive
 
 A list of all the meetings and other stuff.
 
+ - 2014-03-27: BYOD hacking @ Richel
+ - 2014-03-13: BYOD hacking @ Richel
  - 2013-12-19: BYOD hacking @ Frank
  - 2013-12-18: hacking @ Fablab Groningen
  - 2013-12-16: BYOD hacking @ Richel
