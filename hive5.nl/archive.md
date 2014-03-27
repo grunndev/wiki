@@ -1,7 +1,7 @@
 The Archive
 ===========
 
-Everything that's behind us now. Better forget it before it starts to haunt us.
+A list of all the meetings and other stuff.
 
  - 2013-12-19: BYOD hacking @ Frank
  - 2013-12-18: hacking @ Fablab Groningen
