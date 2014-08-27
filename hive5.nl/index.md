@@ -26,7 +26,7 @@ past events.
 Members
 -------
 
-Who are (some of) the members? See members.
+Who are (some of) the members? See (members)[./members.html].
 
 
 Other hacker/maker/whatever-spaces
