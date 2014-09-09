@@ -1,6 +1,3 @@
-Welcome!
-========
-
 Hive5 is a small hackerspace in the city of Groningen. It was founded on
 februari 2013 by three enthusiastic techies.
 
@@ -29,8 +26,8 @@ Members
 Who are (some of) the members? See [members](./members.html).
 
 
-Other hacker/maker/whatever-spaces
-----------------------------------
+Other (hac|ma)ker-spaces
+------------------------
 
  - [Fablab](./misc/fablab.html): fablab with two hacker/maker-evenings per month.
  - [DIY Biology Groningen](misc/diybio.html): biology makerspace.

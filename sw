@@ -14,8 +14,8 @@ sw_main() {
 
 sw_menu() {
 	echo "<ul>"
-	[ -z "`echo $1 | grep index.md`" ] && echo "<li><a href=\"index.html\">.</a></li>"
-	[ "`dirname $1`" != "." ] && echo "<li><a href=\"../index.html\">..</a></li>"
+	[ -z "`echo $1 | grep index.md`" ] && echo "<li><a href=\"index.html\">[root]</a></li>"
+	[ "`dirname $1`" != "." ] && echo "<li><a href=\"../index.html\">[up]</a></li>"
 	FILES=`ls \`dirname $1\` | sed -e 's,.md$,.html,g'`
 	for i in $FILES ; do
 		sw_filter $i && continue
