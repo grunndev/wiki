@@ -23,7 +23,7 @@ past events.
 Members
 -------
 
-Who are (some of) the members? See [members](./members.html).
+Who are (some of) the members? See [members](/members.html).
 
 
 Other (hac|ma)ker-spaces
