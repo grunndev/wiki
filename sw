@@ -12,6 +12,10 @@ sw_main() {
 	$MDHANDLER $1
 }
 
+sw_page_title() {
+	head -n1 "$1"
+}
+
 sw_menu() {
 	echo "<ul>"
 	[ -z "`echo $1 | grep index.md`" ] && echo "<li><a href=\"index.html\">[root]</a></li>"
@@ -54,7 +58,13 @@ FILES=`find . -iname '*.md' | sed -e 's,^\./,,'`
 for a in $FILES; do
 	b="$ODIR/`echo $a | sed -e 's,.md$,.html,g'`"
 	echo "* $a"
-	render_page $a "$TITLE" "$SUBTITLE" "" "$(sw_menu $a)" "$(sw_main $a)" > $b
+	render_page "$a" \
+		"$TITLE" \
+		"$SUBTITLE" \
+		"$(sw_page_title $a)" \
+		"$(sw_menu $a)" \
+		"$(sw_main $a)" \
+		> $b
 done
 
 exit 0

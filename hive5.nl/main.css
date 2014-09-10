@@ -1,7 +1,7 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
   /* Set your content font stack here: */
-  font-family: "Droid Serif", serif;
+  font-family: "PT Serif", serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -22,6 +22,18 @@ pre {
   padding: 0 0 0 .5em;
 }
 
+/* Overwrite pure.css' default */
+menu, ol, ul {
+  padding-left: 22px;
+}
+
+.c {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.w60 { max-width: 60% }
+
 .main {
   margin: 0 auto;
   max-width: 600px;
@@ -31,6 +43,11 @@ pre {
 .title h1 span {
   font-size: .5em;
   font-weight: normal;
+}
+/* Put the subtitle under the title when the screen with is >=400px,
+   because it looks prettier. */
+@media (max-width: 400px) {
+  .title h1 span { display: block }
 }
 
 .nav {
