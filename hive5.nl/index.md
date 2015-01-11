@@ -2,7 +2,7 @@
 <img class="pure-img w60 c" src="logo.png" alt="Hive5 logo"/>
 
 Hive5 is a small hackerspace in the city of Groningen. It was founded on
-februari 2013 by three enthusiastic techies. We keep ourselves busy with
+Februari 2013 by three enthusiastic techies. We keep ourselves busy with
 programming, system administration and other software related topics.
 
 Interested? Feel free to visit our [IRC][1] channel: `#Hive5` on
