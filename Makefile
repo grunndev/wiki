@@ -1,6 +1,6 @@
-all: hive5
+all: hive5.nl
 
-hive5:
+hive5.nl:
 	./sw hive5.nl
 
 clean:
@@ -8,3 +8,5 @@ clean:
 
 check_markdown:
 	@python ./check.py
+
+.PHONY: all hive5.nl clean check_markdown
