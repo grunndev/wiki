@@ -1,9 +1,10 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
   /* Set your content font stack here: */
-  font-family: "PT Serif", serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  font-family: Domine, Heuristica, "PT Serif", "Droid Serif", serif;
+  line-height: 140%;
 }
 
 p {
@@ -36,7 +37,7 @@ menu, ol, ul {
 
 .main {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 650px;
   padding: 0 1em;
 }
 

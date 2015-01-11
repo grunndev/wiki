@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env sh
+
 # sw - suckless webframework - 2012 - nibble <develsec.org>
 # Modified version of sw.
 
