@@ -9,6 +9,8 @@ Interested? Feel free to visit our [IRC][1] channel: `#Hive5` on
 `irc.zeronode.net/6697` (an SSL connection is required) or just click
 [this link][2]. You can also subscribe to the mailing list by sending an email
 to `space-subscribe [at] hive5 [dot] nl`. Or through the [web interface][3].
+If you would like to contact us you can send an email to
+`info [at] hive5 [dot] nl`.
 
 [1]: http://www.irchelp.org/irchelp/irctutorial.html
 [2]: irc://irc.zeronode.net:+6697/#Hive5
