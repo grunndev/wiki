@@ -1,9 +1,8 @@
 import sys
-import hoep as h
+import misaka as m
 
 
-extensions = h.EXT_NO_INTRA_EMPHASIS
-render_flags = h.HTML_SMARTYPANTS
+extensions = ('no-intra-emphasis', 'fenced-code', 'tables')
 
 
 if __name__ == '__main__':
@@ -13,7 +12,7 @@ if __name__ == '__main__':
 
     try:
         with open(sys.argv[1], 'r') as fd:
-            print(h.render(fd.read(), extensions, render_flags))
+            print(m.html(fd.read(), extensions))
         sys.exit(0)
     except FileNotFoundError:
         print('Could not find file!', file=sys.stderr)
