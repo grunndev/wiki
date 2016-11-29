@@ -4,6 +4,8 @@ The Archive
 On average we meet once a week (or once in two weeks). We forget updating this
 list all the time so a lot of activities are missing.
 
+ - 2016-11-29: BYOD hacking @ Hertog
+ - 2016-11-08: BYOD hacking @ Hertog
  - 2016-10-25: BYOD hacking @ assert
  - 2016-10-24: we got lazy again with updating the list :(
  - **2014-07-30: WEP cracking @ Hertog**
