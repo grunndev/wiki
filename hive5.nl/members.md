@@ -7,3 +7,4 @@ Public members of Hive5:
   - FSX ([homepage](http://61924.nl))
   - voidzero ([homepage](https://noagenda.ninja/))
   - Hertog ([homepage](http://www.sandervankasteel.nl))
+  - icetimux ([homepage](http://icetimux.com))
