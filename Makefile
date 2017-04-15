@@ -1,8 +1,6 @@
 md := index.md
 md += archive.md
 md += members.md
-md += todo.md
-md += wiki.md
 
 files := css/pure-custom-min.css
 files += css/main.css
