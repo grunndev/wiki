@@ -1,4 +1,6 @@
 Wiki
+
+Wiki
 ====
 
 The source of the wiki is located on [Github](https://github.com/hive5/wiki).

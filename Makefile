@@ -1,12 +1,48 @@
-all: hive5.nl
+md := index.md
+md += archive.md
+md += members.md
+md += todo.md
+md += wiki.md
 
-hive5.nl:
-	./sw hive5.nl
+files := css/pure-custom-min.css
+files += css/main.css
+files += images/logo.png
+files += favicon.png
+files += favicon-l.png
+
+url ?= http:\/\/0.0.0.0:8000
+
+targets := $(addprefix build/,$(patsubst %.md,%.html,$(md)))
+targets += $(addprefix build/,$(files))
+
+all: build $(targets)
 
 clean:
-	rm -rfv ./hive5.nl.static
+	@rm -rv build
 
-check_markdown:
-	@python3 ./check.py
+serve: all
+	cd build && python3 -m http.server
 
-.PHONY: all hive5.nl clean check_markdown
+install:
+	rm -r /var/www/htdocs/hive5.nl/*
+	cp -r build/* /var/www/htdocs/hive5.nl/
+
+build/%.html: source/%.md
+	@mkdir -p $(dir $@)
+	@echo "cmark  $(<:source/%=%)"
+	@cat source/_header.html > $@.tmp
+	@sed -i "s/{{title}}/$$(head -n1 $<)/g" $@.tmp
+	@sed -i "s/{{url}}/$(url)/g" $@.tmp
+	@sed -i "s/{{random}}/$$(shuf -i 0-1000 -n 1)/g" $@.tmp
+	@sed '1d' $< | sed "s/{{url}}/$(url)/g" | cmark >> $@.tmp
+	@cat source/_footer.html >> $@.tmp
+	@mv $@.tmp $@
+
+build/%: source/%
+	@echo "copy   $(<:source/%=%)"
+	@test -d $$(dirname $@) || mkdir -p $$(dirname $@) && cp -r $< $@
+
+build:
+	@mkdir build
+
+.PHONY: all clean serve install

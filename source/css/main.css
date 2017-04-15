@@ -1,10 +1,24 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-  /* Set your content font stack here: */
   text-rendering: optimizeLegibility;
+  background: #fff;
+  color: #000;
   -webkit-font-smoothing: antialiased;
-  font-family: Domine, Heuristica, "PT Serif", "Droid Serif", serif;
-  line-height: 140%;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+table, time,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+pre, code {
+  font-family: 'M+ 1m', 'DejaVu Sans Mono',
+               'Droid Sans Mono', 'Consolas',
+               monospace;
 }
 
 p {
