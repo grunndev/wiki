@@ -1,5 +1,6 @@
+Hello!
 
-<img class="pure-img w60 c" src="logo.png" alt="Hive5 logo"/>
+<p><img class="pure-img w60 c" src="images/logo.png" alt="Hive5 logo"/></p>
 
 Hive5 is a small hackerspace in the city of Groningen. It was founded on
 Februari 2013 by three enthusiastic techies. We keep ourselves busy with
@@ -24,13 +25,13 @@ Schedule
 Unscheduled activities occur on average once per week. All activities are
 announced on the mailinglist. And when hacking at members, the following holds:
 BYOD (Bring Your Own Device) and PYOP (Pay Your Own Pizza). See the
-[The Archive](archive.html) for past events.
+[The Archive]({{url}}/archive.html) for past events.
 
 
 Members
 -------
 
-Who are (some of) the members? See [members](members.html).
+Who are (some of) the members? See [members]({{url}}/members.html).
 
 
 Other (hac|ma)kerspaces
