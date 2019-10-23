@@ -32,12 +32,3 @@ Members
 -------
 
 Who are (some of) the members? See [members]({{url}}/members.html).
-
-
-Other (hac|ma)kerspaces
------------------------
-
- - [Hacker Space Groningen](http://www.hackerspacegroningen.nl):
-   Other (hac|ma)kerspace in Groningen. They meet twice a month at
-   **De Jonge Onderzoekers** in Groningen.
- - [DIYbio Groningen](http://www.diybiogroningen.org): Biology makerspace.
