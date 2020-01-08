@@ -1,7 +1,7 @@
-Hive5 Wiki
-==========
+Grunndev Wiki
+=============
 
-All the sources of the Hive5 website/wiki (hive5.nl).
+All the sources of the Grunndev website/wiki (grunndev.nl).
 
 
 Usage
