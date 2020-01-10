@@ -21,10 +21,6 @@ clean:
 serve: all
 	cd build && python3 -m http.server
 
-install:
-	rm -r /var/www/htdocs/hive5.nl/*
-	cp -r build/* /var/www/htdocs/hive5.nl/
-
 build/%.html: source/%.md
 	@mkdir -p $(dir $@)
 	@echo "cmark  $(<:source/%=%)"

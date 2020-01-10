@@ -6,6 +6,7 @@ The Archive
 On average we meet once a week (or once in two weeks). We forget updating this
 list all the time so a lot of activities are missing.
 
+ - 2020-01-01: Rename to Grunndev.
  - 2019-02-27: BYOD hacking @ assert
  - 2018-11-22: BYOD hacking @ assert
  - 2018-11-13: BYOD hacking @ assert

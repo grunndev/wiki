@@ -12,11 +12,10 @@ The Makefile contains the following commands:
 - all (default): builds the website.
 - clean: removes the build output.
 - serve: serve the build output using Python 3's `http.server` module.
-- install: copies the build output to `/var/www/htdocs/hive5.nl/`.
 
 Options:
 
- - url: set the base URL (e.g. `url='http:\/\/hive5.nl'`). Slashes must
+ - url: set the base URL (e.g. `url='http:\/\/grunndev.nl'`). Slashes must
    be escaped as this value is put into a sed expression. The default
    value is `http:\/\/0.0.0.0:8000`.
 
@@ -26,7 +25,7 @@ Examples:
 make
 make serve
 make clean serve
-make url='http:\/\/hive5.nl' clean all
+make url='http:\/\/grunndev.nl' clean all
 ```
 
 

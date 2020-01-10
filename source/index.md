@@ -1,6 +1,6 @@
 Hello!
 
-<p><img class="pure-img w60 c" src="images/logo.png" alt="Hive5 logo"/></p>
+<p><img class="pure-img w60 c" src="images/logo.png" alt="Grunndev logo"/></p>
 
 Grunndev is a small hackerspace in the city of Groningen. It was founded on
 Februari 2013 by three enthusiastic techies. We keep ourselves busy with
@@ -15,7 +15,7 @@ If you would like to contact us you can send an email to
 `info [at] grunndev [dot] nl`.
 
 [1]: http://www.irchelp.org/irchelp/irctutorial.html
-[2]: chat.freenode.net#grunndev
+[2]: https://webchat.freenode.net/#grunndev
 [3]: http://www.freelists.org/list/grunndev
 
 
