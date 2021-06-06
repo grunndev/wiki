@@ -25,9 +25,9 @@ build/%.html: source/%.md
 	@mkdir -p $(dir $@)
 	@echo "cmark  $(<:source/%=%)"
 	@cat source/_header.html > $@.tmp
-	@sed -i '' "s/{{title}}/$$(head -n1 $<)/g" $@.tmp
-	@sed -i '' "s/{{url}}/$(url)/g" $@.tmp
-	@sed -i '' "s/{{random}}/$$(shuf -i 0-1000 -n 1)/g" $@.tmp
+	@sed -i "s/{{title}}/$$(head -n1 $<)/g" $@.tmp
+	@sed -i "s/{{url}}/$(url)/g" $@.tmp
+	@sed -i "s/{{random}}/$$RANDOM/g" $@.tmp
 	@sed '1d' $< | sed "s/{{url}}/$(url)/g" | cmark --unsafe >> $@.tmp
 	@cat source/_footer.html >> $@.tmp
 	@mv $@.tmp $@
