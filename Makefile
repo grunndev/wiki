@@ -5,6 +5,7 @@ md += members.md
 files := css/pure-custom-min.css
 files += css/main.css
 files += images/logo.png
+files += images/flag.svg
 files += favicon.png
 files += favicon-l.png
 

@@ -1,6 +1,6 @@
 Hello!
 
-<p><img class="pure-img w60 c" src="images/logo.png" alt="Grunndev logo"/></p>
+<p><img class="pure-img w60 c" src="images/flag.svg" alt="Grunndev logo"/></p>
 
 Grunndev is a small hackerspace in the city of Groningen. It was founded on
 Februari 2013 by three enthusiastic techies. We keep ourselves busy with
