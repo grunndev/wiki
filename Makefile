@@ -10,6 +10,7 @@ files += favicon.png
 files += favicon-l.png
 
 url ?= http:\/\/0.0.0.0:8000
+gc ?= 
 
 targets := $(addprefix build/,$(patsubst %.md,%.html,$(md)))
 targets += $(addprefix build/,$(files))
@@ -31,6 +32,7 @@ build/%.html: source/%.md
 	@sed -i "s/{{random}}/$$RANDOM/g" $@.tmp
 	@sed '1d' $< | sed "s/{{url}}/$(url)/g" | cmark --unsafe >> $@.tmp
 	@cat source/_footer.html >> $@.tmp
+	@sed -i "s/{{gc}}/$(gc)/g" $@.tmp
 	@mv $@.tmp $@
 
 build/%: source/%
